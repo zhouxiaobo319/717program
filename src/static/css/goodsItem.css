@@ -1,0 +1,33 @@
+.goods-item{
+    width:49%;
+    line-height: 0.4rem;
+    margin-right:.05rem;
+    background: #fff;
+    margin-bottom: .1rem;
+}
+.goods-item:nth-child(2n){
+    margin-left: .05rem;
+    margin-right:0;
+}
+.goods-item dt{
+    height:3.2rem;
+    overflow: hidden;
+}
+.goods-item img{
+    width:100%;
+}
+.goods-item dd p{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 0 .2rem;
+}
+.goods-item dd p:nth-child(2){
+    line-height: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.goods-item dd p:nth-child(2) .goods-price{
+    color: #fc4141;
+    font-size: .3rem;
+}

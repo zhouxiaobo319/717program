@@ -1,0 +1,148 @@
+@import '../../static/css/virables.scss';
+#cart{
+    height:100%;
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    header{
+        height: .86rem;
+        line-height: .86rem;
+        text-align: center;
+        border-bottom: 1px solid #eee;
+        background: #fff;
+        position: relative;
+        .edit{
+            position: absolute;
+            top: 0;
+            right: .25rem;
+        }
+    }
+    .cart-list{
+        flex: 1;
+        overflow: hidden;
+        overflow-y: scroll;
+        ul{
+            li{
+                display: flex;
+                align-items: center;
+                padding: .2rem;
+                background: #fff;
+                margin-bottom: .2rem;
+                .iconfont{
+                    width:.4rem;
+                    height: .4rem;
+                    line-height: .44rem;
+                    text-align: center;
+                    margin-right: .2rem;
+                    border:1px solid #ccc;
+                    border-radius: 50%;
+                    color: #fff;
+                }
+                // .icon-selected,
+                .icon-querenwancheng{
+                    background: $baseColor;
+                    border-color: $baseColor;
+                    color: #fff;
+                }
+                .list-img{
+                    width: 1.8rem;
+                    border: 1px solid #eee;
+                    margin-right: .2rem;
+                    img{
+                        width:100%;
+                    }
+                }
+                .cart-cont{
+                    flex: 1;
+                    .cont-tit{
+                        width:100%;
+                        line-height: .6rem;
+                        margin-bottom: .2rem;
+                        display: -webkit-box;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 1;
+
+                    }
+                    .cont{
+                        display: flex;
+                        justify-content: space-between;
+                        .cont-num{
+                            p{
+                                &:nth-child(2){
+                                    color: #fc4141;
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                        .cont-btn{
+                            height:.6rem;
+                            border:1px solid #eee;
+                            span{
+                                display: inline-block;
+                                width:.6rem;
+                                height:.6rem;
+                                line-height: .6rem;
+                                text-align: center;
+                                &:first-child{
+                                    border-right: 1px solid #eee;
+                                }
+                                &:last-child{
+                                    border-left: 1px solid #eee;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        height: .86rem;
+        line-height: .86rem;
+        border-top:1px solid #ccc;
+        background: #fff;
+        display: flex;
+        justify-content: space-between;
+        p{
+            &:first-child{
+                display: flex;
+                align-items: center;
+                span{
+                    display: inline-block;
+                    width:.4rem;
+                    height:.4rem;
+                    line-height: .46rem;
+                    text-align: center;
+                    border-radius: 50%;
+                    border:1px solid #ccc;
+                    margin: 0 .2rem 0;
+                }
+                .icon-querenwancheng{
+                    background: #fc4141;
+                    color: #fff;
+                    border-color: #fc4141;
+                }
+            }
+            &:last-child{
+                flex: 1;
+                text-align: right;
+                span{
+                    b{
+                        color: #fc4141;
+                        font-size: .28rem;
+                    }
+                }
+            }
+            button{
+                height:.85rem;
+                width:40%;
+                border:none;
+                background: #fc4141;
+                color: #fff;
+                margin-left: .2rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+#search{
+    height:100%;
+}
+#search header{
+    height: .86rem;
+    line-height: .86rem;
+    padding: 0 10px;
+    border-bottom: 1px solid #ccc;
+}
+#search section p{
+    padding: 8px 10px;;
+}
+.recent-search p span{
+    float: right;
+}
+#search section ul,
+#search section ol{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 4px;
+}
+#search section ul li,
+#search section ol li{
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 6px 8px;
+}

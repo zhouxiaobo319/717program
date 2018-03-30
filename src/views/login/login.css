@@ -1,0 +1,11 @@
+#login p{
+    text-align: center;
+    margin-top: .4rem;
+}
+#login p button{
+    width: 1.6rem;
+    height: .8rem;
+    background: #fc4141;
+    color: #fff;
+    border: none;
+}

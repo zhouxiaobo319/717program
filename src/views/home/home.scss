@@ -1,0 +1,33 @@
+#home{
+    height: 100%;
+    overflow: auto;
+    header{
+        height: .86rem;
+        line-height: .86rem;
+        text-align: center;
+    }
+    .home-cat {
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 1px solid #eee;
+        dl{
+            padding: .16rem 0;
+            width:25%;
+            text-align: center;
+            dd{
+                line-height: .44rem;
+            }
+            dt{
+                img{
+                    display: inline-block;
+                    width: .86rem;
+                }
+            } 
+        }
+    }
+}
+.goods-list{
+    display: flex;
+    flex-wrap: wrap;
+    background: #eee;
+}

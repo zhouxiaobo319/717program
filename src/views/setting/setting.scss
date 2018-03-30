@@ -1,0 +1,36 @@
+#setting{
+    background: #eee;
+    height:100%;
+    header{
+        height: .86rem;
+        line-height: .86rem;
+        text-align: center;
+        background: #fff;
+        span{
+            &:first-child{
+                position: absolute;
+                left: .2rem;
+            }
+        }
+    }
+    .setting-cont{
+        background: #fff;
+        margin-top: .2rem;
+        p{
+            height: .9rem;
+            line-height: .9rem;
+            padding: 0 .2rem;
+            border-bottom: 1px solid #eee;
+        }
+    }
+    button{
+        width: 70%;
+        height:.86rem;
+        margin-top:1rem;
+        margin-left: 15%;
+        background: #fc4141;
+        color: #fff;
+        border: 0px;
+        border-radius: 22px;
+    }
+}
